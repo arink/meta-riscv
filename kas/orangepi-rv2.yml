@@ -1,0 +1,13 @@
+header:
+  version: 14
+  includes:
+    - base-riscv.yml
+
+machine: orangepi-rv2-mainline
+distro: poky
+target: core-image-base
+
+local_conf_header:
+  orangepi-rv2: |
+    EXTRA_IMAGE_FEATURES = "empty-root-password allow-empty-password allow-root-login"
+    KERNEL_DANGLING_FEATURES_WARN_ONLY = "1"
