@@ -1,0 +1,6 @@
+.kas_shell_history
+build/
+layers/bitbake/
+layers/meta-openembedded/
+layers/meta-poky/
+layers/openembedded-core/
